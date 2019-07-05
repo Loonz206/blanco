@@ -6,6 +6,10 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "clean": "rm -rf dist",
+    "precommit": "npm run lint && npm run pretty",
+    "commit": "git cz",
+    "pretty": "prettier --write src/js/**/*.js",
     "test:unit": "vue-cli-service test:unit",
     "commitmsg": "validate-commit-msg"
   },
@@ -61,5 +65,17 @@
       "subjectPatternErrorMsg": "Subject must be in format 'CMS-123 - Commit message'",
       "helpMessage": ""
     }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "commitmsg": "npm run commitmsg"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,vue,css,md,json}": [
+      "prettier --write",
+      "git add"
+    ]
   }
 }
