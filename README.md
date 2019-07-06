@@ -3,6 +3,6 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Build Status](https://travis-ci.org/Loonz206/blanco.svg?branch=master)](https://travis-ci.org/Loonz206/blanco)
 
-### https://loonz206.github.io/blanco/
+https://loonz206.github.io/blanco/
 
 # Blanco
