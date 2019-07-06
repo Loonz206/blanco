@@ -9,7 +9,7 @@
     "clean": "rm -rf dist",
     "precommit": "npm run lint && npm run pretty",
     "commit": "git cz",
-    "pretty": "prettier --write src/js/**/*.js",
+    "pretty": "prettier --write src/**/*.js",
     "test:unit": "vue-cli-service test:unit",
     "commitmsg": "validate-commit-msg"
   },
@@ -36,6 +36,7 @@
     "dotenv": "^8.0.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.0",
     "eslint-plugin-vue": "^5.0.0",
     "husky": "^3.0.0",
     "node-sass": "^4.9.0",

@@ -1,8 +1,7 @@
-import dotenv from 'dotenv'
-const result = dotenv.config()
+const dotenv = require("dotenv");
+
+const result = dotenv.config();
 if (result.error) {
-  throw result.error
+  throw result.error;
 }
-module.exports = {
-  test: process.env.TEST
-}
+module.exports = {};
