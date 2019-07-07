@@ -4,12 +4,20 @@ self.__precacheManifest = [
     "url": "/blanco/js/about.c2b5042a.js"
   },
   {
-    "revision": "a20dc53865d5c6e863ea",
+    "revision": "81f4746381b44248052f",
     "url": "/blanco/css/app.bb8d29fc.css"
   },
   {
-    "revision": "a20dc53865d5c6e863ea",
-    "url": "/blanco/js/app.4cb3375f.js"
+    "revision": "81f4746381b44248052f",
+    "url": "/blanco/js/app.b48d7f5b.js"
+  },
+  {
+    "revision": "813686bd65efc0165d4a",
+    "url": "/blanco/css/chunk-00a8373c.9f252f94.css"
+  },
+  {
+    "revision": "813686bd65efc0165d4a",
+    "url": "/blanco/js/chunk-00a8373c.d21aee67.js"
   },
   {
     "revision": "ce808654002c0146fe16",
@@ -20,7 +28,7 @@ self.__precacheManifest = [
     "url": "/blanco/img/logo.82b9c7a5.png"
   },
   {
-    "revision": "04caa8ae54227cb3d5e5516d372cc30c",
+    "revision": "d81798c6ff2cfc75e6902509ae7230e5",
     "url": "/blanco/index.html"
   },
   {
