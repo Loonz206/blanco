@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/blanco/precache-manifest.be487e8393a4dd79cc48a1f088b5f027.js"
+  "/blanco/precache-manifest.cc6dbe2772fb56dd2c4120b04d95547a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "blanco"});
